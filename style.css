@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+    font-family: 'Bangers', cursive;
+}
+
+
+.grid {
+    background-color: #e6e6e6;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 200px;
+}
+
+.grid div {
+    background-color: #ff8552;
+    height: 20px;
+    width: 20px;
+}
