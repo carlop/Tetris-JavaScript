@@ -14,7 +14,10 @@ body {
 }
 
 .grid div {
-    background-color: #ff8552;
     height: 20px;
     width: 20px;
+}
+
+.tetromino {
+    background-color: #297373;
 }
