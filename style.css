@@ -4,6 +4,9 @@ body {
     font-family: 'Bangers', cursive;
 }
 
+.container {
+    display: flex;
+}
 
 .grid {
     background-color: #e6e6e6;
@@ -20,4 +23,17 @@ body {
 
 .tetromino {
     background-color: #297373;
+}
+
+.mini-grid {
+    background-color: #e6e6e6;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    margin-left: 50px;
+    width: 80px;
+}
+.mini-grid div {
+    height: 20px;
+    width: 20px;
 }
